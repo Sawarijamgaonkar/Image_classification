@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+        cats     0.9617    0.9790    0.9703      1000
+        dogs     0.9786    0.9610    0.9697      1000
+
+    accuracy                         0.9700      2000
+   macro avg     0.9702    0.9700    0.9700      2000
+weighted avg     0.9702    0.9700    0.9700      2000
+
+                       Predicted Label              
+                         0            1         
+ Truth Label     0   0.489500     0.010500
+                 1   0.019500     0.480500
