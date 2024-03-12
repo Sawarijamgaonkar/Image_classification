@@ -1,3 +1,20 @@
+"""use the below commented code if you want to insert any other image set from kaggle and also upload the .jason format file 
+from the files to google colab while running the code. By this code you will be able to use any dataset from kaggle and then 
+without actually downloading it in your local storage you can easily apply the SVM """
+
+# !mkdir -p ~/.kaggle
+# !cp kaggle.json ~/.kaggle/
+
+# !mkdir -p ~/.kaggle
+# !kaggle datasets download -d chetankv/dogs-cats-images#
+# !cp kaggle.json ~/.kaggle/
+
+# import zipfile
+# zip_ref= zipfile.ZipFile('/content/dogs-cats-images.zip' , 'r')
+# zip_ref.extractall('/content/')
+# zip_ref.close()
+
+
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
