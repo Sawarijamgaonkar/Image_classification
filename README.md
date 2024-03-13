@@ -1,3 +1,5 @@
+The highest achieved accuracy is with SVM model i.e approx 97%
+
 This is the link to the Kaggle data set:
 https://www.kaggle.com/datasets/chetankv/dogs-cats-images?resource=download
 
